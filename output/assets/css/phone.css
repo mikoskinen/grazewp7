@@ -1,0 +1,16 @@
+﻿#phone
+{
+    margin-top: 15px;
+    background: transparent url("../phonelayouts/lumia710whiteblue.png") no-repeat;
+    width: 316px;
+    height: 600px;
+}
+#screens
+{
+    padding-left: 30px;
+    padding-top: 100px;
+}
+#slider
+{
+    margin-left: 10px;
+}

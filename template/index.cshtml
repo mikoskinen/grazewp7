@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>WP7 APP, from SoftwareMK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+    <link href="assets/css/phone.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/ico/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-touch-icon-114x114.png">
+</head>
+<body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <div class="container">
+        <div class="inner">
+            <div class="row">
+                <div class="span4">
+                    <div id="phones">
+                        <div id="phone">
+                            <div id="screens">
+                                <div id="slider">
+                                    <ul>
+                                        @foreach (var screenshot in Model.Screenshots)
+                                        {
+                                            <li>
+                                                <img src="assets/shots/@screenshot.screenshot" alt="@screenshot.alt" />
+                                            </li>
+                                        }
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span8">
+                    <header class="jumbotron masthead">
+                        <h1>@Model.Title</h1>
+                        <p>@Model.Description</p>
+                        <p class="download-info">
+                            <a href="@string.Format("http://windowsphone.com/s?appid={0}", Model.ApplicationId)" class="btn btn-primary btn-large">
+                                Download from Marketplace</a>
+                        </p>
+                    </header>
+                    <hr class="soften">
+                    <div class="marketing">
+                        <h1>@Model.Subtitle</h1>
+                        <p class="marketing-byline">@Model.ReviewsTitle</p>
+                        <div class="row">
+                            @foreach (var review in Model.Reviews)
+                            {
+                                <div class="span4">
+                                    <h2>
+                                        @{
+                                var maxRating = 5;
+                                var rating = int.Parse(review.rating);
+                                var fromMaximum = maxRating - rating;
+                                        }
+                                        @for (var i = 0; i < rating; i++)
+                                        {
+                                            <i class="icon-star"></i>
+                                        }
+                                        @for (var i = 0; i < fromMaximum; i++)
+                                        {
+                                            <i class="icon-star-empty"></i>
+                                        }
+                                    </h2>
+                                    <blockquote>
+                                        @review.Review
+                                        <small>@review.author</small>
+                                    </blockquote>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="soften">
+            <div class="marketing">
+                <div class="row">
+                    @foreach (var feature in Model.Features)
+                    {
+                        <div class="span4">
+                            <img class="bs-icon" src="@feature.Image">
+                            <h2>@feature.Title</h2>
+                            <p>@feature.Feature</p>
+                        </div>
+                        
+                    }
+                </div>
+                <footer class="footer">
+                    <p class="pull-right">
+                        <a href="#">Back to top</a></p>
+                    <p>
+                        Copyright <a href="@Model.PublisherHomeSite" target="_blank">@Model.Publisher </a>
+                        2012
+                    </p>
+                    <h6>
+                        Created with <a href="@Model.WP7Graze.Link">@Model.WP7Graze.WP7Graze</a> using the <a href="@Model.Graze.Link">@Model.Graze.Graze.</a>
+                    </h6>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="assets/js/application.js"></script>
+    <script src="assets/shots/easySlider1.7.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#slider").easySlider({
+                auto: true,
+                continuous: true,
+                pause: 5000,
+                controlsShow: false
+            });
+        });	
+    </script>
+</body>
+</html>
