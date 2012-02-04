@@ -13,6 +13,10 @@ h2. Quick start
 
 The static site (index.html) is generated into the output folder. The site can be hosted on any web server.
 
+h2. Example
+
+!http://mikaelkoskinen.net/image.axd?picture=screenshot_small.png!
+
 h2. Customization
 
 h3. The template
