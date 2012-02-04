@@ -2,7 +2,7 @@ h1. GrazeWP7
 
 GrazeWP7 is a Windows Phone 7 app marketing site generator. It uses the "Graze templating engine":https://github.com/mikoskinen/graze with "Twitter Bootstrap.":https://github.com/twitter/bootstrap/
 
-GrazeWP7 uses a simple configuration file to generate a static web site for your application. The generated sited is pure HTML / CSS / JavaScript and can be hosted on any web server.
+GrazeWP7 uses a simple configuration file to generate a static web site for your application. The generated site is pure HTML / CSS / JavaScript and can be hosted on any web server.
 
 h2. Quick start
 
