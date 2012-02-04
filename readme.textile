@@ -6,14 +6,12 @@ GrazeWP7 uses a simple configuration file to generate a static web site for your
 
 h2. Quick start
 
-# Download the zip-package *or* clone this repository.
-
+# Download the "zip-package":https://github.com/downloads/mikoskinen/grazewp7/grazewp7.zip *or* clone this repository.
 # Add your application's screenshots to folder template\assets\shots.
-
 # Customize the template\configuration.xml -file.
-
 # Run graze.exe.
-<p>The static site (index.html) is generated into the output folder. The site can be hosted on any web server</p>
+
+The static site (index.html) is generated into the output folder. The site can be hosted on any web server.
 
 h2. Customization
 
