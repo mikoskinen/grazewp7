@@ -14,3 +14,11 @@
 {
     margin-left: 10px;
 }
+#slider ul, #slider li 
+{
+	margin: 0px 0px;
+	height: 400px;
+	width: 240px;
+	padding:0;
+	list-style:none;
+}
