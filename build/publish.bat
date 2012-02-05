@@ -1,0 +1,1 @@
+nuget push grazewp7.1.0.nupkg %1

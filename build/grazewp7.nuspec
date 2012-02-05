@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>0.0.0</version>
+    <authors>Mikael Koskinen</authors>
+    <owners />
+    <projectUrl>https://github.com/mikoskinen/grazewp7/</projectUrl>
+    <dependencies>
+      <dependency id="graze" version="1.0" />
+    </dependencies>
+    <id>grazewp7</id>
+    <title>GrazeWP7</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>GrazeWP7 is a Windows Phone 7 app marketing site generator. It uses the Graze templating engine with Twitter Bootstrap.</description>
+    <summary />
+    <copyright>Mikael Koskinen</copyright>
+    <tags>wp7 graze template marketing</tags>
+  </metadata>
+  <files>
+    <file src="..\template\assets\css\bootstrap-responsive.css" target="content\template\assets\css\bootstrap-responsive.css" />
+    <file src="..\template\assets\css\bootstrap.css" target="content\template\assets\css\bootstrap.css" />
+    <file src="..\template\assets\css\docs.css" target="content\template\assets\css\docs.css" />
+    <file src="..\template\assets\css\phone.css" target="content\template\assets\css\phone.css" />
+    <file src="..\template\assets\ico\bootstrap-apple-114x114.png" target="content\template\assets\ico\bootstrap-apple-114x114.png" />
+    <file src="..\template\assets\ico\bootstrap-apple-57x57.png" target="content\template\assets\ico\bootstrap-apple-57x57.png" />
+    <file src="..\template\assets\ico\bootstrap-apple-72x72.png" target="content\template\assets\ico\bootstrap-apple-72x72.png" />
+    <file src="..\template\assets\ico\favicon.ico" target="content\template\assets\ico\favicon.ico" />
+    <file src="..\template\assets\img\example-sites\bartop.png" target="content\template\assets\img\example-sites\bartop.png" />
+    <file src="..\template\assets\img\example-sites\fleetio.png" target="content\template\assets\img\example-sites\fleetio.png" />
+    <file src="..\template\assets\img\example-sites\jshint.png" target="content\template\assets\img\example-sites\jshint.png" />
+    <file src="..\template\assets\img\example-sites\kippt.png" target="content\template\assets\img\example-sites\kippt.png" />
+    <file src="..\template\assets\img\example-sites\railwayjs.png" target="content\template\assets\img\example-sites\railwayjs.png" />
+    <file src="..\template\assets\img\example-sites\totalwireframe.png" target="content\template\assets\img\example-sites\totalwireframe.png" />
+    <file src="..\template\assets\img\examples\bootstrap-example-fluid.jpg" target="content\template\assets\img\examples\bootstrap-example-fluid.jpg" />
+    <file src="..\template\assets\img\examples\bootstrap-example-hero.jpg" target="content\template\assets\img\examples\bootstrap-example-hero.jpg" />
+    <file src="..\template\assets\img\examples\bootstrap-example-starter.jpg" target="content\template\assets\img\examples\bootstrap-example-starter.jpg" />
+    <file src="..\template\assets\img\glyphicons\glyphicons_009_magic.png" target="content\template\assets\img\glyphicons\glyphicons_009_magic.png" />
+    <file src="..\template\assets\img\glyphicons\glyphicons_042_group.png" target="content\template\assets\img\glyphicons\glyphicons_042_group.png" />
+    <file src="..\template\assets\img\glyphicons\glyphicons_079_podium.png" target="content\template\assets\img\glyphicons\glyphicons_079_podium.png" />
+    <file src="..\template\assets\img\glyphicons\glyphicons_082_roundabout.png" target="content\template\assets\img\glyphicons\glyphicons_082_roundabout.png" />
+    <file src="..\template\assets\img\glyphicons\glyphicons_155_show_thumbnails.png" target="content\template\assets\img\glyphicons\glyphicons_155_show_thumbnails.png" />
+    <file src="..\template\assets\img\glyphicons\glyphicons_163_iphone.png" target="content\template\assets\img\glyphicons\glyphicons_163_iphone.png" />
+    <file src="..\template\assets\img\glyphicons\glyphicons_214_resize_small.png" target="content\template\assets\img\glyphicons\glyphicons_214_resize_small.png" />
+    <file src="..\template\assets\img\glyphicons\glyphicons_266_book_open.png" target="content\template\assets\img\glyphicons\glyphicons_266_book_open.png" />
+    <file src="..\template\assets\img\bird.png" target="content\template\assets\img\bird.png" />
+    <file src="..\template\assets\img\bootstrap-mdo-sfmoma-01.jpg" target="content\template\assets\img\bootstrap-mdo-sfmoma-01.jpg" />
+    <file src="..\template\assets\img\bootstrap-mdo-sfmoma-02.jpg" target="content\template\assets\img\bootstrap-mdo-sfmoma-02.jpg" />
+    <file src="..\template\assets\img\bootstrap-mdo-sfmoma-03.jpg" target="content\template\assets\img\bootstrap-mdo-sfmoma-03.jpg" />
+    <file src="..\template\assets\img\browsers.png" target="content\template\assets\img\browsers.png" />
+    <file src="..\template\assets\img\example-diagram-01.png" target="content\template\assets\img\example-diagram-01.png" />
+    <file src="..\template\assets\img\example-diagram-02.png" target="content\template\assets\img\example-diagram-02.png" />
+    <file src="..\template\assets\img\example-diagram-03.png" target="content\template\assets\img\example-diagram-03.png" />
+    <file src="..\template\assets\img\github-16px.png" target="content\template\assets\img\github-16px.png" />
+    <file src="..\template\assets\img\glyphicons-halflings-white.png" target="content\template\assets\img\glyphicons-halflings-white.png" />
+    <file src="..\template\assets\img\glyphicons-halflings.png" target="content\template\assets\img\glyphicons-halflings.png" />
+    <file src="..\template\assets\img\grid-18px-masked.png" target="content\template\assets\img\grid-18px-masked.png" />
+    <file src="..\template\assets\img\icon-css3.png" target="content\template\assets\img\icon-css3.png" />
+    <file src="..\template\assets\img\icon-github.png" target="content\template\assets\img\icon-github.png" />
+    <file src="..\template\assets\img\icon-html5.png" target="content\template\assets\img\icon-html5.png" />
+    <file src="..\template\assets\img\icon-twitter.png" target="content\template\assets\img\icon-twitter.png" />
+    <file src="..\template\assets\img\less-logo-large.png" target="content\template\assets\img\less-logo-large.png" />
+    <file src="..\template\assets\img\less-small.png" target="content\template\assets\img\less-small.png" />
+    <file src="..\template\assets\img\responsive-illustrations.png" target="content\template\assets\img\responsive-illustrations.png" />
+    <file src="..\template\assets\js\google-code-prettify\prettify.css" target="content\template\assets\js\google-code-prettify\prettify.css" />
+    <file src="..\template\assets\js\google-code-prettify\prettify.js" target="content\template\assets\js\google-code-prettify\prettify.js" />
+    <file src="..\template\assets\js\application.js" target="content\template\assets\js\application.js" />
+    <file src="..\template\assets\js\bootstrap-alert.js" target="content\template\assets\js\bootstrap-alert.js" />
+    <file src="..\template\assets\js\bootstrap-button.js" target="content\template\assets\js\bootstrap-button.js" />
+    <file src="..\template\assets\js\bootstrap-carousel.js" target="content\template\assets\js\bootstrap-carousel.js" />
+    <file src="..\template\assets\js\bootstrap-collapse.js" target="content\template\assets\js\bootstrap-collapse.js" />
+    <file src="..\template\assets\js\bootstrap-dropdown.js" target="content\template\assets\js\bootstrap-dropdown.js" />
+    <file src="..\template\assets\js\bootstrap-modal.js" target="content\template\assets\js\bootstrap-modal.js" />
+    <file src="..\template\assets\js\bootstrap-popover.js" target="content\template\assets\js\bootstrap-popover.js" />
+    <file src="..\template\assets\js\bootstrap-scrollspy.js" target="content\template\assets\js\bootstrap-scrollspy.js" />
+    <file src="..\template\assets\js\bootstrap-tab.js" target="content\template\assets\js\bootstrap-tab.js" />
+    <file src="..\template\assets\js\bootstrap-tooltip.js" target="content\template\assets\js\bootstrap-tooltip.js" />
+    <file src="..\template\assets\js\bootstrap-transition.js" target="content\template\assets\js\bootstrap-transition.js" />
+    <file src="..\template\assets\js\bootstrap-typeahead.js" target="content\template\assets\js\bootstrap-typeahead.js" />
+    <file src="..\template\assets\js\jquery.js" target="content\template\assets\js\jquery.js" />
+    <file src="..\template\assets\js\README.md" target="content\template\assets\js\README.md" />
+    <file src="..\template\assets\phonelayouts\emulator.png" target="content\template\assets\phonelayouts\emulator.png" />
+    <file src="..\template\assets\phonelayouts\focuss.png" target="content\template\assets\phonelayouts\focuss.png" />
+    <file src="..\template\assets\phonelayouts\lumia710blackblue.png" target="content\template\assets\phonelayouts\lumia710blackblue.png" />
+    <file src="..\template\assets\phonelayouts\lumia710blackyellow.png" target="content\template\assets\phonelayouts\lumia710blackyellow.png" />
+    <file src="..\template\assets\phonelayouts\lumia710whiteblack.png" target="content\template\assets\phonelayouts\lumia710whiteblack.png" />
+    <file src="..\template\assets\phonelayouts\lumia710whiteblue.png" target="content\template\assets\phonelayouts\lumia710whiteblue.png" />
+    <file src="..\template\assets\phonelayouts\lumia710whitepink.png" target="content\template\assets\phonelayouts\lumia710whitepink.png" />
+    <file src="..\template\assets\phonelayouts\lumia800black.png" target="content\template\assets\phonelayouts\lumia800black.png" />
+    <file src="..\template\assets\phonelayouts\lumia800blue.png" target="content\template\assets\phonelayouts\lumia800blue.png" />
+    <file src="..\template\assets\phonelayouts\lumia800pink.png" target="content\template\assets\phonelayouts\lumia800pink.png" />
+    <file src="..\template\assets\phonelayouts\radar.png" target="content\template\assets\phonelayouts\radar.png" />
+    <file src="..\template\assets\phonelayouts\titan.png" target="content\template\assets\phonelayouts\titan.png" />
+    <file src="..\template\assets\shots\easySlider1.7.min.js" target="content\template\assets\shots\easySlider1.7.min.js" />
+    <file src="..\template\assets\shots\screenshot1.png" target="content\template\assets\shots\screenshot1.png" />
+    <file src="..\template\assets\shots\screenshot2.png" target="content\template\assets\shots\screenshot2.png" />
+    <file src="..\template\assets\shots\screenshot3.png" target="content\template\assets\shots\screenshot3.png" />
+    <file src="..\template\assets\shots\screenshot4.png" target="content\template\assets\shots\screenshot4.png" />
+    <file src="..\template\configuration.xml" target="content\template\remove\wp7_configuration.xml" />
+    <file src="..\template\index.cshtml" target="content\template\remove\wp7_index.cshtml" />
+    <file src="install.ps1" target="tools\install.ps1" />
+    <file src="grazewp7_readme.txt" target="content\grazewp7_readme.txt" />
+  </files>
+</package>

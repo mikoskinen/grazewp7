@@ -13,6 +13,16 @@ h2. Quick start
 
 The static site (index.html) is generated into the output folder. The site can be hosted on any web server.
 
+h2. NuGet
+
+GrazeWP7 is also available from the NuGet. To get started, first create a new "Empty Project" with Visual Studio and then add the GrazeWP7 using NuGet. Graze.exe and the template-folder are installed into the root of your project.
+
+<pre>
+<code>
+Install-Package grazewp7
+</code>
+</pre>
+
 h2. Example
 
 !http://mikaelkoskinen.net/image.axd?picture=screenshot_small.png!
