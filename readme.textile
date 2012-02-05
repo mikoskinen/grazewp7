@@ -17,6 +17,8 @@ h2. Example
 
 !http://mikaelkoskinen.net/image.axd?picture=screenshot_small.png!
 
+"Live demo": http://mikoskinen.github.com/grazewp7/
+
 h2. Customization
 
 h3. The template
