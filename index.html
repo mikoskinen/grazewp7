@@ -25,8 +25,18 @@
 <body data-spy="scroll" data-target=".subnav" data-offset="50">
     <div class="container">
         <div class="inner">
+            <div class="row" id="mobileheader">
+                <div class="jumbotron masthead">
+                    <h1>My App Name</h1>
+                    <p>Wonderful application!</p>
+                    <p class="download-info">
+                        <a href="http://windowsphone.com/s?appid=" class="btn btn-primary btn-large">
+                            Download from Marketplace</a>
+                    </p>
+                </div>
+            </div>
             <div class="row">
-                <div class="span4">
+                <div class="span5">
                     <div id="phones">
                         <div id="phone">
                             <div id="screens">
@@ -48,23 +58,25 @@
                                 </div>
                             </div>
                         </div>
+                        <div id="smallPhone">
+                            <img src="assets/shots/screenshot1.png" alt="App Screenshot" /></div>
                     </div>
                 </div>
-                <div class="span8">
-                    <header class="jumbotron masthead">
+                <div class="span7">
+                    <header id="normalheader" class="jumbotron masthead">
                         <h1>My App Name</h1>
                         <p>Wonderful application!</p>
                         <p class="download-info">
                             <a href="http://windowsphone.com/s?appid=" class="btn btn-primary btn-large">
                                 Download from Marketplace</a>
                         </p>
-                    </header>
                     <hr class="soften">
+                    </header>
                     <div class="marketing">
                         <h1>Another tagline goes here!</h1>
                         <p class="marketing-byline">See what others are saying.</p>
                         <div class="row">
-                                <div class="span4">
+                                <div class="span3">
                                     <h2>
                                             <i class="icon-star"></i>
                                             <i class="icon-star"></i>
@@ -77,7 +89,7 @@
                                         <small>Miquel</small>
                                     </blockquote>
                                 </div>
-                                <div class="span4">
+                                <div class="span3">
                                     <h2>
                                             <i class="icon-star"></i>
                                             <i class="icon-star"></i>
@@ -90,7 +102,7 @@
                                         <small>Miquel</small>
                                     </blockquote>
                                 </div>
-                                <div class="span4">
+                                <div class="span3">
                                     <h2>
                                             <i class="icon-star"></i>
                                             <i class="icon-star"></i>
@@ -103,7 +115,7 @@
                                         <small>Miquel</small>
                                     </blockquote>
                                 </div>
-                                <div class="span4">
+                                <div class="span3">
                                     <h2>
                                             <i class="icon-star"></i>
                                             <i class="icon-star"></i>
@@ -116,7 +128,7 @@
                                         <small>Miquel</small>
                                     </blockquote>
                                 </div>
-                                <div class="span4">
+                                <div class="span3">
                                     <h2>
                                             <i class="icon-star"></i>
                                             <i class="icon-star"></i>
@@ -129,7 +141,7 @@
                                         <small>Miquel</small>
                                     </blockquote>
                                 </div>
-                                <div class="span4">
+                                <div class="span3">
                                     <h2>
                                             <i class="icon-star"></i>
                                             <i class="icon-star"></i>
@@ -188,7 +200,7 @@
                         2012
                     </p>
                     <h6>
-                        Created with <a href="https://github.com/mikoskinen/wp7graze">WP7Graze</a> using the <a href="https://github.com/mikoskinen/graze">Graze templating engine.</a>
+                        Created with <a href="https://github.com/mikoskinen/grazewp7">WP7Graze</a> using the <a href="https://github.com/mikoskinen/graze">Graze templating engine.</a>
                     </h6>
                 </footer>
             </div>
@@ -209,7 +221,6 @@
     <script src="assets/js/bootstrap-collapse.js"></script>
     <script src="assets/js/bootstrap-carousel.js"></script>
     <script src="assets/js/bootstrap-typeahead.js"></script>
-    <script src="assets/js/application.js"></script>
     <script src="assets/shots/easySlider1.7.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
