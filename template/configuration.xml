@@ -29,6 +29,6 @@
   </Features>
   <Publisher>SoftwareMK</Publisher>
   <PublisherHomeSite>http://softwaremk.org</PublisherHomeSite>
-  <WP7Graze Link="https://github.com/mikoskinen/wp7graze">WP7Graze</WP7Graze>
+  <WP7Graze Link="https://github.com/mikoskinen/grazewp7">WP7Graze</WP7Graze>
   <Graze Link="https://github.com/mikoskinen/graze">Graze templating engine</Graze>
 </site>

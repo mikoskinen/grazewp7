@@ -25,8 +25,18 @@
 <body data-spy="scroll" data-target=".subnav" data-offset="50">
     <div class="container">
         <div class="inner">
+            <div class="row" id="mobileheader">
+                <div class="jumbotron masthead">
+                    <h1>@Model.Title</h1>
+                    <p>@Model.Description</p>
+                    <p class="download-info">
+                        <a href="@string.Format("http://windowsphone.com/s?appid={0}", Model.ApplicationId)" class="btn btn-primary btn-large">
+                            Download from Marketplace</a>
+                    </p>
+                </div>
+            </div>
             <div class="row">
-                <div class="span4">
+                <div class="span5">
                     <div id="phones">
                         <div id="phone">
                             <div id="screens">
@@ -42,25 +52,27 @@
                                 </div>
                             </div>
                         </div>
+                        <div id="smallPhone">
+                            <img src="assets/shots/@Model.Screenshots[0].screenshot" alt="App Screenshot" /></div>
                     </div>
                 </div>
-                <div class="span8">
-                    <header class="jumbotron masthead">
+                <div class="span7">
+                    <header id="normalheader" class="jumbotron masthead">
                         <h1>@Model.Title</h1>
                         <p>@Model.Description</p>
                         <p class="download-info">
                             <a href="@string.Format("http://windowsphone.com/s?appid={0}", Model.ApplicationId)" class="btn btn-primary btn-large">
                                 Download from Marketplace</a>
                         </p>
-                    </header>
                     <hr class="soften">
+                    </header>
                     <div class="marketing">
                         <h1>@Model.Subtitle</h1>
                         <p class="marketing-byline">@Model.ReviewsTitle</p>
                         <div class="row">
                             @foreach (var review in Model.Reviews)
                             {
-                                <div class="span4">
+                                <div class="span3">
                                     <h2>
                                         @{
                                 var maxRating = 5;
@@ -128,7 +140,6 @@
     <script src="assets/js/bootstrap-collapse.js"></script>
     <script src="assets/js/bootstrap-carousel.js"></script>
     <script src="assets/js/bootstrap-typeahead.js"></script>
-    <script src="assets/js/application.js"></script>
     <script src="assets/shots/easySlider1.7.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
