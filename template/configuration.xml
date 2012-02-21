@@ -25,6 +25,7 @@
       <screenshot alt="My screenshot 3">screenshot3.png</screenshot>
       <screenshot alt="My screenshot 4">screenshot4.png</screenshot>
     </Screenshots>
+    <StaticScreenshot alt="My screenshot 5">screenshot4.png</StaticScreenshot>
     <Features>
       <Feature Image="assets/img/glyphicons/glyphicons_009_magic.png" Title="Feature 1">This feature is extremely solid, making the the really nice to use. It allows you to make great things. And to do those things fast.</Feature>
       <Feature Image="assets/img/glyphicons/glyphicons_009_magic.png" Title="Feature 2">This feature is extremely solid, making the the really nice to use. It allows you to make great things. And to do those things fast.</Feature>
@@ -36,4 +37,8 @@
     <WP7Graze Link="https://github.com/mikoskinen/grazewp7">GrazeWP7</WP7Graze>
     <Graze Link="https://github.com/mikoskinen/graze">Graze templating engine</Graze>
   </data>
+  <extra>
+    <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="520" Height="293">IntroductionVideo</Youtube>
+    <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="250" Height="141">IntroductionVideoMini</Youtube>
+  </extra>
 </site>

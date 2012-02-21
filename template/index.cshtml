@@ -15,7 +15,7 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="assets/css/docs.css" rel="stylesheet">
-    <link href="assets/css/phone.css" rel="stylesheet">
+    <link href="assets/css/grazewp7.css" rel="stylesheet">
     <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
@@ -31,9 +31,24 @@
                     <h1>@Model.Title</h1>
                     <p>@Model.Description</p>
                     <p class="download-info">
-                        <a href="@string.Format("http://windowsphone.com/s?appid={0}", Model.ApplicationId)" class="btn btn-primary btn-large">
+                        <a href="@string.Format("http://windowsphone.com/s?appid={0}", Model.ApplicationId)" class="btn btn-primary btn-small">
                             Download from Marketplace</a>
                     </p>
+                    <a data-toggle="modal" href="#myModalMini" class="btn btn-info btn-small">See it in
+                        action</a>
+                    <div id="myModalMini" class="modal hide fade">
+                        <div class="modal-header">
+                            <a class="close" data-dismiss="modal">&times;</a>
+                            <h3>
+                                Introduction</h3>
+                        </div>
+                        <div class="modal-body">
+                            @Model.IntroductionVideoMini
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="btn" data-dismiss="modal">Close</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -54,7 +69,24 @@
                             </div>
                         </div>
                         <div id="smallPhone">
-                            <img src="assets/shots/@Model.Screenshots[0].screenshot" alt="App Screenshot" /></div>
+                            <img src="assets/shots/@Model.StaticScreenshot.StaticScreenshot" alt="@Model.StaticScreenshot.alt" ></div>
+                        <a data-toggle="modal" href="#myModal" >
+                        <h6 class="videolink" >
+                            See it in action!</h6>
+                        </a>
+                        <div id="myModal" class="modal hide fade">
+                            <div class="modal-header">
+                                <a class="close" data-dismiss="modal">&times;</a>
+                                <h3>
+                                    Introduction</h3>
+                            </div>
+                            <div class="modal-body">
+                                @Model.IntroductionVideo
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn" data-dismiss="modal">Close</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="span7">
@@ -65,7 +97,6 @@
                             <a href="@string.Format("http://windowsphone.com/s?appid={0}", Model.ApplicationId)" class="btn btn-primary btn-large">
                                 Download from Marketplace</a>
                         </p>
-                    <hr class="soften">
                     </header>
                     <div class="marketing">
                         <h1>@Model.Subtitle</h1>
@@ -116,11 +147,12 @@
                     <p class="pull-right">
                         <a href="#">Back to top</a></p>
                     <p>
-                        Copyright <a href="@Model.Publisher.HomePage" target="_blank">@Model.Publisher.Publisher </a>
-                        2012
+                        Copyright <a href="@Model.Publisher.HomePage" target="_blank">@Model.Publisher.Publisher
+                        </a>2012
                     </p>
                     <h6>
-                        Created with <a href="@Model.WP7Graze.Link">@Model.WP7Graze.WP7Graze</a> using the <a href="@Model.Graze.Link">@Model.Graze.Graze.</a>
+                        Created with <a href="@Model.WP7Graze.Link">@Model.WP7Graze.WP7Graze</a> using the
+                        <a href="@Model.Graze.Link">@Model.Graze.Graze.</a>
                     </h6>
                 </footer>
             </div>

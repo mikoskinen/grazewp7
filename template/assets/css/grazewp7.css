@@ -1,0 +1,96 @@
+﻿#phones
+{
+    display: block;
+}
+
+#mobileheader
+{
+    display: none;
+}
+
+@media screen and (max-width: 768px)
+{
+    #phones
+    {
+        visibility: collapse;
+    }
+    #phone
+    {
+        height: 440px !important;
+    }
+    #mobileheader
+    {
+        display: block;
+    }
+    #normalheader
+    {
+        display: none;
+    }
+    #screens
+    {
+        padding-left: 0px !important;
+        padding-top: 0px !important;
+    }
+    .masthead
+    {
+        margin-bottom: 0px !important;
+    }
+}
+
+#phone
+{
+    margin-top: 15px;
+    background: transparent url("../phonelayouts/lumia710whiteblue.png") no-repeat;
+    width: 316px;
+    height: 600px;
+}
+#screens
+{
+    padding-left: 30px;
+    padding-top: 100px;
+}
+#slider
+{
+    margin-left: 10px;
+}
+#slider ul, #slider li
+{
+    margin: 0px 0px;
+    height: 400px;
+    width: 240px;
+    padding: 0;
+    list-style: none;
+}
+#smallPhone
+{
+    z-index: -1;
+    position: relative;
+    margin-top: -459px;
+    background: transparent url("../phonelayouts/focuss.png") no-repeat 100% 100%;
+    background-size: cover;
+    width: 228px;
+    height: 420px;
+    margin-left: -170px;
+    visibility: hidden;
+}
+#smallPhone img
+{
+    margin-top: 56px;
+    margin-left: 20px;
+    width: 180px;
+    height: 300px;
+}
+
+.videolink
+{
+    margin-left: 115px;
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 980px)
+{
+    #smallPhone
+    {
+        visibility: visible;
+    }
+}
