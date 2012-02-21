@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <title>My App Name from SoftwareMK</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Great app by SoftwareMK">
+    <meta name="keywords" content="wp7,graze,windows phone">
+    <meta name="author" content="SoftwareMK">
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -14,7 +15,7 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="assets/css/docs.css" rel="stylesheet">
-    <link href="assets/css/phone.css" rel="stylesheet">
+    <link href="assets/css/grazewp7.css" rel="stylesheet">
     <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
@@ -30,9 +31,24 @@
                     <h1>My App Name</h1>
                     <p>Wonderful application!</p>
                     <p class="download-info">
-                        <a href="http://windowsphone.com/s?appid=" class="btn btn-primary btn-large">
+                        <a href="http://windowsphone.com/s?appid=" class="btn btn-primary btn-small">
                             Download from Marketplace</a>
                     </p>
+                    <a data-toggle="modal" href="#myModalMini" class="btn btn-info btn-small">See it in
+                        action</a>
+                    <div id="myModalMini" class="modal hide fade">
+                        <div class="modal-header">
+                            <a class="close" data-dismiss="modal">&times;</a>
+                            <h3>
+                                Introduction</h3>
+                        </div>
+                        <div class="modal-body">
+                            <iframe width="250" height="141" src="http://www.youtube.com/embed/Ws8-PKO0i_k" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="btn" data-dismiss="modal">Close</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -59,7 +75,24 @@
                             </div>
                         </div>
                         <div id="smallPhone">
-                            <img src="assets/shots/screenshot1.png" alt="App Screenshot" /></div>
+                            <img src="assets/shots/screenshot4.png" alt="My screenshot 5" ></div>
+                        <a data-toggle="modal" href="#myModal" >
+                        <h6 class="videolink" >
+                            See it in action!</h6>
+                        </a>
+                        <div id="myModal" class="modal hide fade">
+                            <div class="modal-header">
+                                <a class="close" data-dismiss="modal">&times;</a>
+                                <h3>
+                                    Introduction</h3>
+                            </div>
+                            <div class="modal-body">
+                                <iframe width="520" height="293" src="http://www.youtube.com/embed/Ws8-PKO0i_k" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn" data-dismiss="modal">Close</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="span7">
@@ -70,7 +103,6 @@
                             <a href="http://windowsphone.com/s?appid=" class="btn btn-primary btn-large">
                                 Download from Marketplace</a>
                         </p>
-                    <hr class="soften">
                     </header>
                     <div class="marketing">
                         <h1>Another tagline goes here!</h1>
@@ -196,11 +228,12 @@
                     <p class="pull-right">
                         <a href="#">Back to top</a></p>
                     <p>
-                        Copyright <a href="http://softwaremk.org" target="_blank">SoftwareMK </a>
-                        2012
+                        Copyright <a href="http://softwaremk.org" target="_blank">SoftwareMK
+                        </a>2012
                     </p>
                     <h6>
-                        Created with <a href="https://github.com/mikoskinen/grazewp7">WP7Graze</a> using the <a href="https://github.com/mikoskinen/graze">Graze templating engine.</a>
+                        Created with <a href="https://github.com/mikoskinen/grazewp7">GrazeWP7</a> using the
+                        <a href="https://github.com/mikoskinen/graze">Graze templating engine.</a>
                     </h6>
                 </footer>
             </div>
