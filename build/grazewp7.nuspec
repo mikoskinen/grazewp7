@@ -6,7 +6,7 @@
     <owners />
     <projectUrl>https://github.com/mikoskinen/grazewp7/</projectUrl>
     <dependencies>
-      <dependency id="graze" version="1.0" />
+      <dependency id="graze" version="3.0" />
     </dependencies>
     <id>grazewp7</id>
     <title>GrazeWP7</title>
@@ -20,7 +20,7 @@
     <file src="..\template\assets\css\bootstrap-responsive.css" target="content\template\assets\css\bootstrap-responsive.css" />
     <file src="..\template\assets\css\bootstrap.css" target="content\template\assets\css\bootstrap.css" />
     <file src="..\template\assets\css\docs.css" target="content\template\assets\css\docs.css" />
-    <file src="..\template\assets\css\phone.css" target="content\template\assets\css\phone.css" />
+    <file src="..\template\assets\css\grazewp7.css" target="content\template\assets\css\grazewp7.css" />
     <file src="..\template\assets\ico\bootstrap-apple-114x114.png" target="content\template\assets\ico\bootstrap-apple-114x114.png" />
     <file src="..\template\assets\ico\bootstrap-apple-57x57.png" target="content\template\assets\ico\bootstrap-apple-57x57.png" />
     <file src="..\template\assets\ico\bootstrap-apple-72x72.png" target="content\template\assets\ico\bootstrap-apple-72x72.png" />
