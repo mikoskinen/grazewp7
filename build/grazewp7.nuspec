@@ -6,7 +6,7 @@
     <owners />
     <projectUrl>https://github.com/mikoskinen/grazewp7/</projectUrl>
     <dependencies>
-      <dependency id="graze" version="3.0" />
+      <dependency id="graze" version="3.1" />
     </dependencies>
     <id>grazewp7</id>
     <title>GrazeWP7</title>

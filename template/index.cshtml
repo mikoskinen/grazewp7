@@ -53,38 +53,40 @@
             </div>
             <div class="row">
                 <div class="span5">
-                    <div id="phones">
-                        <div id="phone">
-                            <div id="screens">
-                                <div id="slider">
-                                    <ul>
-                                        @foreach (var screenshot in Model.Screenshots)
-                                        {
-                                            <li>
-                                                <img src="assets/shots/@screenshot.screenshot" alt="@screenshot.alt" />
-                                            </li>
-                                        }
-                                    </ul>
+                    <div id="screenshotarea">
+                        <div id="phones">
+                            <div id="phone">
+                                <div id="screens">
+                                    <div id="slider">
+                                        <ul>
+                                            @foreach (var screenshot in Model.Screenshots)
+                                            {
+                                                <li>
+                                                    <img src="assets/shots/@screenshot.screenshot" alt="@screenshot.alt" />
+                                                </li>
+                                            }
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div id="smallPhone">
-                            <img src="assets/shots/@Model.StaticScreenshot.StaticScreenshot" alt="@Model.StaticScreenshot.alt" ></div>
-                        <a data-toggle="modal" href="#myModal" >
-                        <h6 class="videolink" ><i class="icon-play-circle"></i>
-                            See it in action!</h6>
-                        </a>
-                        <div id="myModal" class="modal hide fade">
-                            <div class="modal-header">
-                                <a class="close" data-dismiss="modal">&times;</a>
-                                <h3>
-                                    Introduction</h3>
-                            </div>
-                            <div class="modal-body">
-                                @Model.IntroductionVideo
-                            </div>
-                            <div class="modal-footer">
-                                <a href="#" class="btn" data-dismiss="modal">Close</a>
+                            <div id="smallPhone">
+                                <img src="assets/shots/@Model.StaticScreenshot.StaticScreenshot" alt="@Model.StaticScreenshot.alt" ></div>
+                            <a data-toggle="modal" href="#myModal">
+                                <h6 class="videolink">
+                                    <i class="icon-play-circle"></i>See it in action!</h6>
+                            </a>
+                            <div id="myModal" class="modal hide fade">
+                                <div class="modal-header">
+                                    <a class="close" data-dismiss="modal">&times;</a>
+                                    <h3>
+                                        Introduction</h3>
+                                </div>
+                                <div class="modal-body">
+                                    @Model.IntroductionVideo
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#" class="btn" data-dismiss="modal">Close</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -176,13 +178,23 @@
     <script src="assets/shots/easySlider1.7.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
+            showSlider();
+            showScreenshots();
+        });
+
+        function showSlider() {
             $("#slider").easySlider({
                 auto: true,
                 continuous: true,
                 pause: 5000,
                 controlsShow: false
             });
-        });	
+        }
+        
+        function showScreenshots() {
+            $("#screenshotarea").css("visibility", "visible");
+        }
+        
     </script>
 </body>
 </html>

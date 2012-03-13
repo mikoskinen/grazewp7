@@ -1,1 +1,1 @@
-nuget push grazewp7.2.0.nupkg %1
+nuget push grazewp7.3.0.nupkg %1

@@ -81,6 +81,10 @@
     height: 300px;
 }
 
+#screenshotarea {
+    visibility: hidden;
+}
+
 .videolink
 {
     margin-left: 115px;

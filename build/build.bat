@@ -1,2 +1,2 @@
 del *.nupkg
-nuget pack grazewp7.nuspec -Version 2.0
+nuget pack grazewp7.nuspec -Version 3.0

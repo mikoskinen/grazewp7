@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<site>
-  <data>
+<data>
+  <site>
     <Title>My App Name</Title>
     <Description>Wonderful application!</Description>
     <ApplicationId></ApplicationId>
     <Subtitle>Another tagline goes here!</Subtitle>
-    
+
     <MetaDescription>Great app by SoftwareMK</MetaDescription>
     <MetaKeywords>wp7,graze,windows phone</MetaKeywords>
-    
+
     <Publisher HomePage="http://softwaremk.org">SoftwareMK</Publisher>
     <ReviewsTitle>See what others are saying.</ReviewsTitle>
     <Reviews>
@@ -36,9 +36,7 @@
     </Features>
     <WP7Graze Link="https://github.com/mikoskinen/grazewp7">GrazeWP7</WP7Graze>
     <Graze Link="https://github.com/mikoskinen/graze">Graze templating engine</Graze>
-  </data>
-  <extra>
-    <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="520" Height="293">IntroductionVideo</Youtube>
-    <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="250" Height="141">IntroductionVideoMini</Youtube>
-  </extra>
-</site>
+  </site>
+  <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="520" Height="293">IntroductionVideo</Youtube>
+  <Youtube Url="http://www.youtube.com/embed/Ws8-PKO0i_k" Width="250" Height="141">IntroductionVideoMini</Youtube>
+</data>
